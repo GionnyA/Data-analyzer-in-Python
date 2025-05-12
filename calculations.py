@@ -7,3 +7,6 @@ class Calculations:
 
     def median(self, selected_col):
         return self.df[selected_col].median()
+
+    def std_dev(self, selected_col):
+        return self.df[selected_col].std()
